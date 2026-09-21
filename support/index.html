@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ScreenRock サポート</title>
+<meta name="description" content="ScreenRock のよくある質問とお問い合わせ先です。">
+<style>
+  :root {
+    --bg: #fbfaf5;
+    --ink: #2b2a26;
+    --muted: #7a786e;
+    --line: #e4e2d8;
+    --accent: #4a533d;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #171714;
+      --ink: #ecebe4;
+      --muted: #a09e93;
+      --line: #34332e;
+      --accent: #b6c29c;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #171714;
+    --ink: #ecebe4;
+    --muted: #a09e93;
+    --line: #34332e;
+    --accent: #b6c29c;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font: 16px/1.8 -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Segoe UI", sans-serif;
+    -webkit-text-size-adjust: 100%;
+  }
+  main { max-width: 680px; margin: 0 auto; padding: 48px 16px 80px; }
+  h1 { font-size: 26px; font-weight: 600; line-height: 1.4; margin: 0 0 4px; }
+  h2 { font-size: 18px; font-weight: 600; margin: 40px 0 8px; }
+  p, li { color: var(--ink); }
+  ul { padding-left: 1.3em; }
+  .date { color: var(--muted); font-size: 14px; margin: 0 0 32px; }
+  .lang { display: flex; gap: 16px; font-size: 14px; margin: 0 0 32px; }
+  a { color: var(--accent); }
+  hr { border: 0; border-top: 1px solid var(--line); margin: 64px 0; }
+  section:target { scroll-margin-top: 24px; }
+</style>
+</head>
+<body>
+<main>
+  <nav class="lang" aria-label="Language"><a href="#ja">日本語</a><a href="#en">English</a></nav>
+
+  <section id="ja" lang="ja">
+    <h1>ScreenRock サポート</h1>
+    <p class="date">集中するほど石が磨かれるタイマー</p>
+
+    <h2>石はどうすれば磨かれますか</h2>
+    <p>タイマーを始めると、石が転がりはじめます。集中した時間がたまるほど石はなめらかになり、石ごとに決まった時間に達すると完全な球体になって完成します。</p>
+
+    <h2>購入した石を復元したい</h2>
+    <p>コレクション画面の一番下にある「購入を復元」を押してください。購入時と同じ Apple ID でサインインしている必要があります。石は買い切りなので、一度購入すれば追加の料金はかかりません。</p>
+
+    <h2>機種変更したら記録は引き継がれますか</h2>
+    <p>集中の記録と石の進み具合は、お使いの端末の中だけに保存されます。端末のバックアップから復元した場合を除き、新しい端末には引き継がれません。購入した石は「購入を復元」で新しい端末でも使えます。</p>
+
+    <h2>タイマー終了の通知が届かない</h2>
+    <p>端末の「設定」→「通知」→「ScreenRock」で通知が許可されているか確認してください。</p>
+
+    <h2>音が鳴らない</h2>
+    <p>効果音は端末の消音モード(サイレントスイッチ)に従います。消音モードを解除すると鳴ります。</p>
+
+    <h2>お問い合わせ</h2>
+    <p>不具合のご報告やご質問は <a href="mailto:hearttricken@levipon.jp">hearttricken@levipon.jp</a> までお送りください。お使いの機種と iOS のバージョンを添えていただけると助かります。</p>
+    <p><a href="../">プライバシーポリシー</a></p>
+  </section>
+
+  <hr>
+
+  <section id="en" lang="en">
+    <h1>ScreenRock Support</h1>
+    <p class="date">A focus timer that polishes a stone</p>
+
+    <h2>How does a stone get polished?</h2>
+    <p>Start the timer and the stone starts rolling. The more focus time it collects, the smoother it gets. When it reaches the time set for that stone, it becomes a perfect sphere and is complete.</p>
+
+    <h2>How do I restore stones I bought?</h2>
+    <p>Tap "Restore purchases" at the bottom of the Collection screen while signed in with the Apple ID you used to buy them. Stones are one-time purchases, so there is never an extra charge.</p>
+
+    <h2>Will my history move to a new device?</h2>
+    <p>Your focus history and stone progress are stored only on your device. They move to a new device only if you restore it from a device backup. Purchased stones can be restored on any device with "Restore purchases".</p>
+
+    <h2>I don't get a notification when the timer ends</h2>
+    <p>Check that notifications are allowed in Settings → Notifications → ScreenRock.</p>
+
+    <h2>I can't hear any sound</h2>
+    <p>Sound effects follow your device's silent mode. Turn off silent mode to hear them.</p>
+
+    <h2>Contact</h2>
+    <p>For bug reports or questions, email <a href="mailto:hearttricken@levipon.jp">hearttricken@levipon.jp</a>. Including your device model and iOS version helps us a lot.</p>
+    <p><a href="../">Privacy Policy</a></p>
+  </section>
+</main>
+</body>
+</html>
