@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>ScreenRock プライバシーポリシー</title>
-<meta name="description" content="ScreenRock が扱う情報と、その使い方についての説明です。">
+<title>Walkstone プライバシーポリシー</title>
+<meta name="description" content="Walkstone が扱う情報と、その使い方についての説明です。">
 <style>
   :root {
     --bg: #fbfaf5;
@@ -54,20 +54,29 @@
   <nav class="lang" aria-label="Language"><a href="#ja">日本語</a><a href="#en">English</a></nav>
 
   <section id="ja" lang="ja">
-    <h1>ScreenRock プライバシーポリシー</h1>
-    <p class="date">制定日: 2026年9月21日</p>
+    <h1>Walkstone プライバシーポリシー</h1>
+    <p class="date">制定日: 2026年9月21日 ／ 改定日: 2026年9月24日</p>
 
-    <p>ScreenRock（以下「本アプリ」）は、利用者のプライバシーを尊重します。本ポリシーでは、本アプリが扱う情報と、その使い方を説明します。</p>
+    <p>Walkstone（旧名 ScreenRock、以下「本アプリ」）は、利用者のプライバシーを尊重します。本ポリシーでは、本アプリが扱う情報と、その使い方を説明します。</p>
 
-    <h2>1. 端末内に保存する情報</h2>
-    <p>本アプリは、集中した時間の記録、石の進み具合、タイマーの設定を、お使いの端末の中だけに保存します。これらの情報が開発者のサーバーに送信されることはありません。本アプリを削除すると、これらの情報も端末から消去されます。</p>
+    <h2>1. ヘルスケアの歩数</h2>
+    <p>本アプリは、歩いた分だけ石が削れる仕組みのために、Apple のヘルスケア（HealthKit）から歩数を読み取ります。読み取るのは歩数だけで、ヘルスケアへの書き込みは行いません。</p>
+    <ul>
+      <li>歩数は、お使いの端末の中で石の削れ具合と今日の歩数の表示を計算するためだけに使います。</li>
+      <li>歩数やヘルスケアの情報を、開発者のサーバー、RevenueCat を含む第三者、iCloud に送信・保存することはありません。</li>
+      <li>広告、マーケティング、データの販売には使いません。</li>
+      <li>読み取りの許可は、iPhone の「設定」→「ヘルスケア」→「データアクセスとデバイス」からいつでも取り消せます。</li>
+    </ul>
 
-    <h2>2. 通知</h2>
-    <p>カウントダウンの終了をお知らせするため、端末上で通知を予約します。通知のための識別子（プッシュ通知トークンなど）を取得・送信することはありません。通知は端末の設定からいつでもオフにできます。</p>
+    <h2>2. モーションとフィットネス</h2>
+    <p>ヘルスケアの歩数を使えないとき（読み取りを許可していない場合など）は、代わりに iPhone 本体が記録している直近7日分の歩数を読み取り、石の削れ具合の計算に使います。また、本アプリを開いている間は、歩いているかどうかを検知して石が転がる演出に使います。これらの情報は端末の中だけで使い、送信することはありません。</p>
 
-    <h2>3. アプリ内課金</h2>
+    <h2>3. 端末内に保存する情報</h2>
+    <p>本アプリは、持っている石と完成した石、それぞれの削れ具合、棚に表示する石の画像を、お使いの端末の中だけに保存します。これらの情報が開発者のサーバーに送信されることはありません。本アプリを削除すると、これらの情報も端末から消去されます。</p>
+
+    <h2>4. アプリ内課金</h2>
     <p>石の購入は Apple の App Store を通じて処理されます。カード番号などの決済情報を、本アプリや開発者が受け取ることはありません。</p>
-    <p>購入の確認と復元のため、RevenueCat, Inc. のサービスを利用しています。RevenueCat には次の情報が送信されます。</p>
+    <p>購入の確認と復元のため、RevenueCat, Inc. のサービスを利用しています。RevenueCat には次の情報が送信されます。歩数やヘルスケアの情報は含まれません。</p>
     <ul>
       <li>購入・取引に関する情報（購入した商品、取引日時など）</li>
       <li>本アプリが自動で作るランダムな匿名ID（氏名やメールアドレスとは結び付きません）</li>
@@ -75,39 +84,48 @@
     </ul>
     <p>これらの情報は、購入の確認と復元、および開発者が RevenueCat の管理画面で見る売上の集計（どの石が何件売れたかなど）のために使われます。個人を特定する目的では使いません。RevenueCat による取り扱いは、<a href="https://www.revenuecat.com/privacy">RevenueCat のプライバシーポリシー</a>をご確認ください。</p>
 
-    <h2>4. 扱わない情報</h2>
+    <h2>5. 扱わない情報</h2>
     <p>本アプリは、アカウント登録、広告の表示、利用状況の解析を行わず、位置情報・連絡先・写真にもアクセスしません。他のアプリやウェブサイトをまたいだトラッキングも行いません。情報を第三者に販売することはありません。</p>
 
-    <h2>5. 情報の削除</h2>
-    <p>端末内の情報は、本アプリを削除すると消去されます。RevenueCat に送信された匿名IDに関する情報の削除を希望される場合は、下記の連絡先までご連絡ください。</p>
+    <h2>6. 情報の削除</h2>
+    <p>端末内の情報は、本アプリを削除すると消去されます。ヘルスケアの歩数そのものは本アプリではなくヘルスケアに保存されており、本アプリがそれを変更・削除することはありません。RevenueCat に送信された匿名IDに関する情報の削除を希望される場合は、下記の連絡先までご連絡ください。</p>
 
-    <h2>6. 子どものプライバシー</h2>
+    <h2>7. 子どものプライバシー</h2>
     <p>本アプリは、13歳未満の子どもから意図的に個人情報を集めることはありません。</p>
 
-    <h2>7. 本ポリシーの変更</h2>
+    <h2>8. 本ポリシーの変更</h2>
     <p>本ポリシーを変更する場合は、このページで内容と改定日をお知らせします。</p>
 
-    <h2>8. お問い合わせ</h2>
+    <h2>9. お問い合わせ</h2>
     <p>本ポリシーや本アプリでの情報の扱いについてのお問い合わせは、<a href="mailto:hearttricken@levipon.jp">hearttricken@levipon.jp</a> までご連絡ください。</p>
   </section>
 
   <hr>
 
   <section id="en" lang="en">
-    <h1>ScreenRock Privacy Policy</h1>
-    <p class="date">Effective: September 21, 2026</p>
+    <h1>Walkstone Privacy Policy</h1>
+    <p class="date">Effective: September 21, 2026 · Updated: September 24, 2026</p>
 
-    <p>ScreenRock ("the app") respects your privacy. This policy explains what information the app handles and how it is used.</p>
+    <p>Walkstone (formerly ScreenRock, "the app") respects your privacy. This policy explains what information the app handles and how it is used.</p>
 
-    <h2>1. Information stored on your device</h2>
-    <p>The app stores your focus history, the progress of your stones, and your timer settings only on your device. This information is never sent to the developer's servers. Deleting the app removes it from your device.</p>
+    <h2>1. Step count from Health</h2>
+    <p>So that your walking can grind your stones, the app reads your step count from Apple Health (HealthKit). It reads step count only and never writes to Health.</p>
+    <ul>
+      <li>Steps are used only on your device, to work out how far your stones have been ground and to show today's steps.</li>
+      <li>Steps and other Health information are never sent to or stored on the developer's servers, any third party including RevenueCat, or iCloud.</li>
+      <li>They are never used for advertising or marketing, and never sold.</li>
+      <li>You can revoke read access at any time in the iPhone Settings app under Health → Data Access &amp; Devices.</li>
+    </ul>
 
-    <h2>2. Notifications</h2>
-    <p>To tell you when a countdown ends, the app schedules notifications on your device. It does not obtain or send any identifier for notifications, such as a push notification token. You can turn notifications off at any time in your device settings.</p>
+    <h2>2. Motion &amp; Fitness</h2>
+    <p>When Health steps are not available (for example, if you have not allowed reading them), the app instead reads the last seven days of steps recorded by your iPhone to work out how far your stones have been ground. While the app is open, it also detects whether you are walking, to play the rolling-stone effect. This information is used only on your device and is never sent anywhere.</p>
 
-    <h2>3. In-app purchases</h2>
+    <h2>3. Information stored on your device</h2>
+    <p>The app stores the stones you carry and have finished, how far each has been ground, and the stone images shown on your shelf only on your device. This information is never sent to the developer's servers. Deleting the app removes it from your device.</p>
+
+    <h2>4. In-app purchases</h2>
     <p>Stones are purchased through Apple's App Store. Neither the app nor the developer receives your payment details, such as card numbers.</p>
-    <p>To verify and restore purchases, the app uses a service provided by RevenueCat, Inc. The following information is sent to RevenueCat:</p>
+    <p>To verify and restore purchases, the app uses a service provided by RevenueCat, Inc. The following information is sent to RevenueCat. It never includes steps or other Health information.</p>
     <ul>
       <li>Purchase and transaction information, such as the product purchased and the time of the transaction</li>
       <li>A random anonymous ID generated by the app, which is not linked to your name or email address</li>
@@ -115,19 +133,19 @@
     </ul>
     <p>This information is used to verify and restore purchases, and to produce aggregate sales figures that the developer views in RevenueCat's dashboard, such as how many of each stone have been sold. It is not used to identify you. For how RevenueCat handles it, see <a href="https://www.revenuecat.com/privacy">RevenueCat's privacy policy</a>.</p>
 
-    <h2>4. Information the app does not handle</h2>
+    <h2>5. Information the app does not handle</h2>
     <p>The app has no accounts, shows no ads, performs no usage analytics, and does not access your location, contacts, or photos. It does not track you across other apps or websites. Your information is never sold to third parties.</p>
 
-    <h2>5. Deleting your information</h2>
-    <p>Information on your device is removed when you delete the app. To request deletion of information associated with the anonymous ID sent to RevenueCat, please contact us using the details below.</p>
+    <h2>6. Deleting your information</h2>
+    <p>Information on your device is removed when you delete the app. Your step data itself lives in Health, not in the app, and the app never changes or deletes it. To request deletion of information associated with the anonymous ID sent to RevenueCat, please contact us using the details below.</p>
 
-    <h2>6. Children's privacy</h2>
+    <h2>7. Children's privacy</h2>
     <p>The app does not knowingly collect personal information from children under 13.</p>
 
-    <h2>7. Changes to this policy</h2>
+    <h2>8. Changes to this policy</h2>
     <p>If this policy changes, the updated content and its effective date will be posted on this page.</p>
 
-    <h2>8. Contact</h2>
+    <h2>9. Contact</h2>
     <p>For questions about this policy or how the app handles information, please contact <a href="mailto:hearttricken@levipon.jp">hearttricken@levipon.jp</a>.</p>
   </section>
 </main>
